@@ -29,16 +29,24 @@ const TreeOfLife = {
 }
 
 //TODO -- Write a function which returns the domain "archae"
-const getArchae = () => {}
+const getArchae = () => {
+  return TreeOfLife.archae;
+}
 
 // TODO -- Write a function which returns the array of humans
-const getHumans = () => {}
+const getHumans = () => {
+  return TreeOfLife.animalia.TreeOfLife;
+}
 
 // TODO -- Write a function which adds a name to the array of humans
-const addHuman = (name) => {}
+const addHuman = (name) => {
+  return TreeOfLife.animalia.TreeOfLife.push(name);
+}
 
 // TODO -- Write a fuction which returns the data representing the "bestDomain"
-const getBestDomain = () => {}
+const getBestDomain = () => {
+  return TreeOfLife.bestDomain;
+}
 
 // TODO -- Write a function which sets the best domain to "eukarya" and then returns the "bestDomain"
 const setGetBestDomain = () => {}
